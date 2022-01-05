@@ -1,0 +1,12 @@
+def func(n):
+       if(n<400):
+          print('low')
+       elif(n>=400 and n<=919):
+          print('medium')
+       else:
+          print('high')
+
+func(352)  #prints low
+func(434)  #prints medium
+func(939)  #prints high
+  
